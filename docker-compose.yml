@@ -1,0 +1,18 @@
+version: "3"
+services:
+  frontend:
+    build: ./CRAFT-frontend
+    image: frontend:latest
+    ports:
+      - 80:8081
+
+  backend:
+    build: ./CRAFT-backend
+    image: backend:latest
+    expose:
+      - 8080
+    volumes:
+      - craftmod-volume:/backend/data
+
+volumes:
+  craftmod-volume:
