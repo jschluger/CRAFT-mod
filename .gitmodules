@@ -1,0 +1,6 @@
+[submodule "CRAFT-backend"]
+	path = CRAFT-backend
+	url = https://github.com/jschluger/CRAFT-backend.git
+[submodule "CRAFT-frontend"]
+	path = CRAFT-frontend
+	url = https://github.com/jschluger/CRAFT-frontend.git
