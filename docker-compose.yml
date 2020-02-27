@@ -12,7 +12,7 @@ services:
     expose:
       - 8080
     volumes:
-      - mod_data:/backend/data
+      - mod-data:/backend/data
 
 volumes:
-  mod_data:
+  mod-data:
