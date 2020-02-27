@@ -12,7 +12,7 @@ services:
     expose:
       - 8080
     volumes:
-      - craftmod-volume:/backend/data
+      - mod_data:/backend/data
 
 volumes:
-  craftmod-volume:
+  mod_data:
