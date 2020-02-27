@@ -5,15 +5,12 @@ This repository uses git submodules to refer to the CRAFT-backend and CRAFT-fron
 
 ### Cloning
 *Step 1*: Run `$ git clone https://github.com/jschluger/CRAFT-mod.git tmp`
+. Now, CRAFT-backend and CRAFT-frontend are empty directories, not tracked as submodules.
 
-Now, CRAFT-backend and CRAFT-frontend are empty directories, not tracked as submodules.
-
-*Step 2*: Run `$ git submodule init`
-
+*Step 2*: Run `$ git submodule init` 
 in order to initialize your local configuration file, ".gitmodules". CRAFT-backend and CRAFT-frontend are still empty directories.
 
 *Step 3*: Run `$ git submodule update` 
-
 in order to download the CRAFT-backend and CRAFT-frontend reposetories into their respective directories. You now have all the required code for the project!
 
 ## Running the Application
